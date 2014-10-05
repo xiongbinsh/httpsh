@@ -1,0 +1,4 @@
+#awk -F '[: \/]' '$0!~/^#/ {if($2~/[0-9]+/){printf "%s  %s %s \n",  $1, $2, $3}else {printf "%s 80 %s\n", $1, $2}}'
+www.shangsuancai.com:80/index.html
+www.2native.com/index.html
+www.baidu.com
