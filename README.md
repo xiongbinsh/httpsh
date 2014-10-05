@@ -22,6 +22,7 @@ Files:
 ------
 
 #### constat.sh   
+
 fetch the website response and print it in console.
 
 parameters:
@@ -31,7 +32,8 @@ parameters:
 - $3  optional, page url. some thing like /, /index.html , /login.asp '/' by default if omitted.  
 
 
-#### main.sh   
+#### main.sh  
+ 
 get the web connection status in prarllel by invoking constat.sh. the only paramter is the web url list file.
 
 parameter:
@@ -39,6 +41,7 @@ parameter:
 - $1 the file of web sites to check. each line is a url like www.baidu.com:80/index.html , see the demo file "check".(note that don't add 'http://' prefix in the url list file.)
 
 #### check     
+
 the demo url list file. please  "cat check" and read it, then type "./main.sh check" in bash console.
 	(please don't add 'http://' prefix to the url in list file.)
 
