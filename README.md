@@ -11,7 +11,9 @@ nc - arbitrary TCP and UDP connections and listens
 parallel - build and execute shell command lines from standard input inparallel
 
 Please check them with command "which nc" and "which parallel".  if not, please install them.
-for example, in unbuntu please run : apt-get install parallel
+
+for example, in ubuntu please run :
+    apt-get install parallel
 
 
 Files:
