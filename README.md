@@ -1,7 +1,8 @@
-To get response from website whose URL listed in a given file.
-
+To get response from website whose URL listed in a given file
+==============================================================
 
 Environment and Dependence:
+---------------------------
 
 The shell command sould run in bash environment for any distribution of linux.
 note that the following command 'nc' and 'parallel' shold be installed before run the shell.
@@ -17,6 +18,7 @@ for example, in ubuntu please run :
 
 
 Files:
+------
 
 constat.sh   fetch the website response and print it in console.
 parameters:
@@ -33,7 +35,9 @@ $1 the file of web sites to check. each line is a url like www.baidu.com:80/inde
 
 check     the demo url list file. please  "cat check" and read it, then type "./main.sh check" in bash console.
 	  (please don't add 'http://' prefix to the url in list file.)
+
 Example:
+--------
 
 ./constat.sh www.shangsuancai.com 80 /
 ./constat.sh www.baidu.com
