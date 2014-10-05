@@ -8,9 +8,9 @@ Environment and Dependence:
 The shell command sould run in bash environment for any distribution of linux.
 note that the following command 'nc' and 'parallel' shold be installed before run the shell.
 
-nc - arbitrary TCP and UDP connections and listens
+- nc - arbitrary TCP and UDP connections and listens
 
-parallel - build and execute shell command lines from standard input inparallel
+- parallel - build and execute shell command lines from standard input inparallel
 
 Please check them with command "which nc" and "which parallel".  if not, please install them.
 
@@ -21,7 +21,7 @@ for example, in ubuntu please run :
 Files:
 ------
 
-constat.sh   fetch the website response and print it in console.
+#### constat.sh   fetch the website response and print it in console.
 
 parameters:
 
@@ -30,14 +30,14 @@ parameters:
 - $3  optional, page url. some thing like /, /index.html , /login.asp '/' by default if omitted.  
 
 
-main.sh   get the web connection status in prarllel by invoking constat.sh. the only paramter is the web url list file.
+#### main.sh   get the web connection status in prarllel by invoking constat.sh. the only paramter is the web url list file.
 
 parameter:
 
 - $1 the file of web sites to check. each line is a url like www.baidu.com:80/index.html , see the demo file "check".(note that don't add 'http://' prefix in the url list file.)
 
-check     the demo url list file. please  "cat check" and read it, then type "./main.sh check" in bash console.
-	  (please don't add 'http://' prefix to the url in list file.)
+#### check     the demo url list file. please  "cat check" and read it, then type "./main.sh check" in bash console.
+	(please don't add 'http://' prefix to the url in list file.)
 
 Example:
 --------
