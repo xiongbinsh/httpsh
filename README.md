@@ -21,20 +21,20 @@ for example, in ubuntu please run :
 Files:
 ------
 
-constat.sh   fetch the website response and print it in console.
+* constat.sh   fetch the website response and print it in console.
 parameters:
 
-$1  hostname of website or ip. for example www.baidu.com
-$2  optional, the port of web server, 80 by default if omit this .
-$3  optional, page url. some thing like /, /index.html , /login.asp '/' by default if omitted.  
+- $1  hostname of website or ip. for example www.baidu.com.
+- $2  optional, the port of web server, 80 by default if omit this.
+- $3  optional, page url. some thing like /, /index.html , /login.asp '/' by default if omitted.  
 
 
-main.sh   get the web connection status in prarllel by invoking constat.sh. the only paramter is the web url list file.
+* main.sh   get the web connection status in prarllel by invoking constat.sh. the only paramter is the web url list file.
 parameter:
 
-$1 the file of web sites to check. each line is a url like www.baidu.com:80/index.html , see the demo file "check".(note that don't add 'http://' prefix in the url list file.)
+- $1 the file of web sites to check. each line is a url like www.baidu.com:80/index.html , see the demo file "check".(note that don't add 'http://' prefix in the url list file.)
 
-check     the demo url list file. please  "cat check" and read it, then type "./main.sh check" in bash console.
+* check     the demo url list file. please  "cat check" and read it, then type "./main.sh check" in bash console.
 	  (please don't add 'http://' prefix to the url in list file.)
 
 Example:
