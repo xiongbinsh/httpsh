@@ -43,15 +43,19 @@ parameter:
 #### check     
 
 the demo url list file. please  "cat check" and read it, then type "./main.sh check" in bash console.
-	(please don't add 'http://' prefix to the url in list file.)
+
+		(please don't add 'http://' prefix to the url in list file.)
 
 Example:
 --------
 
-./constat.sh www.shangsuancai.com 80 /
-./constat.sh www.baidu.com
+		./constat.sh www.shangsuancai.com 80 /
+
+		./constat.sh www.baidu.com
+
 in that way the http pages' response will show in console.
 
-./main.sh check
+		./main.sh check
+
 grep the connection status (like 200 OK, 404 not found) for every url in the file named "check"
 
