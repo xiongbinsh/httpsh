@@ -7,6 +7,7 @@ The shell command sould run in bash environment for any distribution of linux.
 note that the following command 'nc' and 'parallel' shold be installed before run the shell.
 
 nc - arbitrary TCP and UDP connections and listens
+
 parallel - build and execute shell command lines from standard input inparallel
 
 Please check them with command "which nc" and "which parallel".  if not, please install them.
