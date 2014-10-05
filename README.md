@@ -1,4 +1,17 @@
-To get response from website listed in the given file like demo file "check"
+To get response from website whose URL listed in a given file.
+
+
+Environment and Dependence:
+
+The shell command sould run in bash environment for any distribution of linux.
+note that the following command 'nc' and 'parallel' shold be installed before run the shell.
+
+nc - arbitrary TCP and UDP connections and listens
+parallel - build and execute shell command lines from standard input inparallel
+
+Please check them with command "which nc" and "which parallel".  if not, please install them.
+for example, in unbuntu please run : apt-get install parallel
+
 
 Files:
 
@@ -15,8 +28,8 @@ parameter:
 
 $1 the file of web sites to check. each line is a url like www.baidu.com:80/index.html , see the demo file "check".(note that don't add 'http://' prefix in the url list file.)
 
-check     the demo url list file. please "cat check" andread it, then type "./main.sh check" in bash console.
-	  (note that don't add 'http://' prefix in the url list file.)
+check     the demo url list file. please  "cat check" and read it, then type "./main.sh check" in bash console.
+	  (please don't add 'http://' prefix to the url in list file.)
 Example:
 
 ./constat.sh www.shangsuancai.com 80 /
@@ -25,3 +38,4 @@ in that way the http pages' response will show in console.
 
 ./main.sh check
 grep the connection status (like 200 OK, 404 not found) for every url in the file named "check"
+
