@@ -15,7 +15,8 @@ note that the following command 'nc' and 'parallel' shold be installed before ru
 Please check them with command "which nc" and "which parallel".  if not, please install them.
 
 for example, in ubuntu please run :
-    apt-get install parallel
+
+		apt-get install parallel
 
 
 Files:
