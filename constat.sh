@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 reqcmd='GET pathname HTTP/1.1
 Host: hostname
 Connection: keep-alive

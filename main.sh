@@ -1,4 +1,5 @@
-# $1 the website list file name like demo file:"check"
+#!/usr/bin/env bash
+# $1 the website list file name, like demo file:"check"
 cat $1|
 awk -F '[: \/]' '$0!~/^#/ {if($2~/[0-9]+/)
   {printf "%s  %s \/%s \n",  $1, $2, $3}
