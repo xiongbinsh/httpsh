@@ -60,3 +60,9 @@ in that way the http pages' response will show in console.
 
 grep the connection status (like 200 OK, 404 not found) for every url in the file named "check"
 
+
+
+by 
+--
+
+xiongbin.shangai@gmail.com
