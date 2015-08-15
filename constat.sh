@@ -50,5 +50,5 @@ echo "$reqcmd"|sed -e "s/hostname/$1/"|sed -e"s/pathname/$encoded_path/"|nc $1 $
 
 }
 
-##main##  ./constat.sh www.baidu.com [8080] [/index.html]
+##main##  ./constat.sh www.baidu.com  [8080] [/index.html]
 func_connect $1 $2 $3
